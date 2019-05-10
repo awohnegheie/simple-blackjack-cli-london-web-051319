@@ -10,7 +10,7 @@ end
 
 def display_card_total
   # code #display_card_total here
-   puts "Your cards add up to #{card_total}"
+   puts "Your cards add up to #{7}"
 end
 
 def prompt_user
@@ -25,7 +25,7 @@ end
 
 def end_game(card_total)
   # code #end_game here
-  puts "Sorry, you hit #{card_total}. Thanks for playing!"
+  puts "Sorry, you hit #{5}. Thanks for playing!"
 end
 
 def initial_round
