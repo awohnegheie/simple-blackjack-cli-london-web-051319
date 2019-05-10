@@ -39,7 +39,7 @@ end
 
 def hit?(card_total)
   # code hit? here
-  # code hit? here	  
+  # code hit? here
   prompt_user
   response = get_user_input
   if response == "h"
@@ -76,4 +76,3 @@ until total > 21
 end_game(total)
 
 end
-    
