@@ -35,7 +35,7 @@ def initial_round
 end
 
 def hit?(total)
-  # code hit? here	  
+  # code hit? here
   prompt_user
   option = get_user_input
 
@@ -49,7 +49,7 @@ end
 
 def invalid_command
   # code invalid_command here
-  
+
   puts "Please enter a valid command"
   prompt_user
 end
@@ -62,7 +62,7 @@ def runner
   # code runner here
   welcome
    total = initial_round
- 
+
     until total >= 21 do
      total = hit?(total)
    end
